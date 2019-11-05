@@ -18,7 +18,7 @@ public class DriverImpl implements Driver {
 			throw new RuntimeException("Null vehicle");
 		}
 
-		_first= first;
+		_first = first;
 		_last = last;
 		_id = id;
 		_vehicle = vehicle;		
